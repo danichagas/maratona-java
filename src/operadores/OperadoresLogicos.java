@@ -5,7 +5,10 @@ public class OperadoresLogicos {
         // AND --> &&
         // OR --> ||
         // NOT --> !
-        boolean exemploRelacional = 89 > 90 && 90 > 91;
-        System.out.println(exemploRelacional);
+        boolean exemploRelacional1 = 89 > 90 && 90 > 91;
+        System.out.println(exemploRelacional1);
+
+        boolean exemoloRelacioanl2 = 56 > 34 || 20 < 30;
+        System.out.println(exemoloRelacioanl2);
     }
 }
