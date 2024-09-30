@@ -10,5 +10,9 @@ public class OperadoresLogicos {
 
         boolean exemoloRelacioanl2 = 56 > 34 || 20 < 30;
         System.out.println(exemoloRelacioanl2);
+
+        int bonus = 1800;
+        bonus += 1000;
+        System.out.println(bonus);
     }
 }
