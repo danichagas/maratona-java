@@ -16,5 +16,11 @@ public class Array {
         for (int i = 0; i < nomes.length; i++) {
             System.out.println(nomes[i]);
         }
+
+        double[] alturas = {1.85, 1.71, 1.67};
+
+        for (double num : alturas) {
+            System.out.println(num);
+        }
       }
 }
