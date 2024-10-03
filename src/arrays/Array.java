@@ -2,9 +2,11 @@ package arrays;
 
 public class Array {
     public static void main(String[] args) {
-        int[] idades = new int[5];
-        idades[0] = 17;
-        System.out.println(idades[0]);
+        int[] idades = {17, 41, 58};
+
+        for (int i = 0; i < idades.length; i++) {
+            System.out.println(idades[i]);
+        }
 
         String[] nomes = new String[3];
         nomes[0] = "Daniel";
